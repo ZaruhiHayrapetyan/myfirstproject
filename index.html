@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="flexhead">
+            <div class="grow">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="ftg">
+                <ul class="ul">
+                    <li class="li"><a class="soc" href="https://www.facebook.com/"><img src="images/facebook.png"
+                                alt="facebook"></a></li>
+                    <li class="li"><a class="soc" href="https://www.google.com/"><img src="images/google.png"
+                                alt="google"></a></li>
+                    <li class="li"><a class="soc" href="https://twitter.com/"><img src="images/twitter.png"
+                                alt="twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="topnav menu" id="myTopnav">
+            <a href="#" class="img"><img src="images/home.png" alt="Error"></a>
+            <a href="#" class="contact item">ABOUT US</a>
+            <a href="#" class="contact item">EVENTS</a>
+            <a href="#" class="contact item">BLOG</a>
+            <a href="#" class="blog item">CONTACTS</a>
+            <a href="javascript:void(0);" class="contact icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="peas">
+            <img src="images/header.jpg" alt="peas">
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="p">
+                <p>FEATURED PRODUCTS</p>
+            </div>
+            <ul class="products">
+                <li><a href="#"><img src="images/01.jpg" alt="photo"></a></li>
+                <li><a href="#"><img src="images/02.jpg" alt="photo"></a></li>
+                <li><a href="#"><img src="images/03.jpg" alt="photo"></a></li>
+                <li><a href="#"><img src="images/04.jpg" alt="photo"></a></li>
+                <li><a href="#"><img src="images/05.jpg" alt="photo"></a></li>
+            </ul>
+        </div>
+
+
+        <div class="flex4">
+            <div class="new newleft">
+                <h2>NEW</h2>
+                <h3>TECHNOLOGIES</h3>
+                <img src="images/home1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nulla qui adipisci tempora
+                    blanditiis
+                    doloremque facilis ex reprehenderit, mollitia quia?</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="new">
+                <h2>ECO</h2>
+                <h3>SOLUTIONS</h3>
+                <img src="images/home2.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nulla qui adipisci tempora
+                    blanditiis
+                    doloremque facilis ex reprehenderit, mollitia quia?</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="new">
+                <h2>FROST</h2>
+                <h3>PROTECTION</h3>
+                <img src="images/home3.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nulla qui adipisci tempora
+                    blanditiis
+                    doloremque facilis ex reprehenderit, mollitia quia?</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="new newright">
+                <h2>PREMIUM</h2>
+                <h3>VEGETABLES</h3>
+                <img src="images/home4.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nulla qui adipisci tempora
+                    blanditiis
+                    doloremque facilis ex reprehenderit, mollitia quia?</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <address>
+            <!--!!! Զարուհի Հայրապետյան 1990 -->
+            Զարուհի Հայրապետյան 1990
+        </address>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {});
+    </script>
+</body>
+
+</html>
